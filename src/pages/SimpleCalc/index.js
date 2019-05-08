@@ -98,6 +98,9 @@ class SimpleCalc extends Component{
                 <Button variant="contained" style={{margin: '5px 3%', width: '44%'}} color='secondary' onClick={() => (this.handleClick(4))}>/2</Button>
                 <Button variant="contained" style={{margin: '5px 3%', width: '94%'}} onClick={() => (this.handleClick(5))}>save to history</Button>
                 <Button variant="contained" style={{margin: '5px 3%', width: '94%'}} onClick={() => (this.handleInsert(this.state.result))}>save to stack</Button>
+                <center>
+                    <h6>test auto deploy</h6>
+                </center>
             </div>
         );
     }
